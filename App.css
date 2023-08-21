@@ -1,0 +1,1669 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro+Titling&display=swap');
+
+.App {
+  text-align: center;
+min-height: 100%; 
+width: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  
+
+ 
+}
+.h1welcome{
+  font-size: 60px;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main2{
+  width: 100%;
+  height: 100vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+video {
+  width: 100%;
+  height: 150%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.content2 {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+ 
+}
+
+  .componente-con-fondo {
+    background-image: url("../src/assets/img/bellas.jpeg");
+    /* Otras propiedades opcionales para ajustar el fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-width: 10px;
+
+    border-radius: 30px;
+  
+
+
+      }
+  .fondotexto{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+
+
+  }
+
+  .imgsend{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+  }
+  
+
+.pcont{
+  font-size: 70px;
+
+  color:  #343466;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  background-color: #000000cc; 
+
+
+}
+
+.overlay:hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: #000000f7; 
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  /* background-color: #000000cc; */
+}
+
+.bt1{
+  background-color: aliceblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.imagen1{
+  position: absolute;
+  align-self: center;
+  
+  height: 300px;
+}
+.card1{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.835);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: black;
+ 
+}
+.carddetail{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.835);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: black;
+
+
+}
+
+.card111{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.835);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: black;
+ 
+}
+
+.nbicon{
+  width: 110px;
+  height: 120px;
+}
+
+.imageninvest{
+  margin-top: 50px;
+  width: 300px;
+  height: 350px;
+}
+
+
+
+
+
+
+/*****************************************************CARDS*******************************************************/
+.CardH{
+
+  align-items: center;
+  }
+  
+  
+  .cardventa{
+    background-color: rgba(250, 121, 0, 0.925);
+    box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.815);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 6px;
+    margin-top: 18px;
+  
+    padding: 18px;
+  
+  }
+  .ci1{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: aliceblue;
+  
+
+  }
+  .cardinvestment{
+    margin-top: 20px;
+
+  }
+  .C1{
+    /* Set a specific height */
+    min-height: 1000px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+  
+  }
+  .C22{
+  
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: aliceblue;
+  
+  
+  }
+  
+  .card{
+    background: rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 6px;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    padding-top: 30px;
+  
+  }
+  .card-footer{
+    background:rgb(255, 255, 255);
+    margin-top: 40px;
+
+
+    
+    color:  #343466;
+    font-size: 20px;
+    
+  
+  }
+  
+  .cardtitl{
+    background: rgba(8, 8, 8, 0.788);
+    box-shadow: 0 8px 32px 0 rgba(50, 31, 135, 0.178);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 6px;
+    color: aliceblue;
+  
+  
+  }
+  .cardbenfits{
+  
+    background: rgba(253, 253, 253, 0.596);
+      box-shadow: 0 8px 32px 0 rgba(50, 31, 135, 0.178);
+      backdrop-filter: blur( 4px );
+      -webkit-backdrop-filter: blur( 4px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+      margin: 6px;
+      color: aliceblue;
+    
+    
+    }
+    .card-modelbussines{
+      background-color: rgba(250, 121, 0, 0.795);
+      box-shadow: 0 8px 32px 0 rgba(50, 31, 135, 0.178);
+      backdrop-filter: blur( 4px );
+      -webkit-backdrop-filter: blur( 4px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+      margin: 6px;
+      color: aliceblue;
+  
+    }
+    .cardbenfits:hover{
+      background-color: rgba(250, 121, 0, 0.795);
+      box-shadow: 0 8px 32px 0 rgba(50, 31, 135, 0.178);
+      backdrop-filter: blur( 4px );
+      -webkit-backdrop-filter: blur( 4px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+      margin: 6px;
+      color: aliceblue;
+  
+    }
+  
+  .cardprops{
+    background-color: #ffffffac;
+    box-shadow: 0 8px 32px 0 rgba(15, 14, 12, 0.178);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 6px;
+
+    height: auto;
+    width: auto;
+  
+    padding: 18px;
+  
+  }
+  .cardprops1{
+    background-color: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.815);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 6px;
+    color: #000000;
+    font-size: 20px;
+  
+    padding: 18px;
+
+  }
+
+  .cardtitleprops{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.815);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 6px;
+    color: aliceblue;
+    padding: 18px;
+  
+  }
+  .introInvest{
+    background: rgba(5, 5, 5, 0.596);
+    box-shadow: 0 18px 32px 0 rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 50px;
+  
+  }
+  .intro{
+    /*Background degradado
+    background: rgba(1, 31, 202, 0.596);*/
+    background: rgba(46, 45, 45, 0.734);
+    box-shadow: 0 18px 32px 0 rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 50px;
+    color: aliceblue;
+  }
+  
+  
+  .C2join{
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.486);
+    box-shadow: 0 18px 32px 0 rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  }
+  .CarrouselCard{
+    background: rgba(12, 12, 12, 0.486);
+    box-shadow: 0 18px 32px 0 rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 130px;
+  
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+  }
+  .carousel{
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .rowform{
+    margin: 9px;
+  }
+  .introupload{
+    margin: 10px;
+    background: rgba(238, 233, 233, 0.486);
+    box-shadow: 0 18px 32px 0 rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  .cardventaprops{
+    background: rgba(255, 166, 1, 0.945);
+    box-shadow: 0 18px 32px 0 rgba(0, 0, 0, 0.726);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 150px;
+  align-self: center;
+  align-items: center;
+  width: 400px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+  
+  }
+  
+  .card-properties{
+    background-color: rgba(243, 119, 4, 0.877);
+    margin: 20px;
+    margin-top: 50px;
+    color: aliceblue;
+    height: 12  0px;
+    width: 290px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 32px;
+  
+  }
+  .introprops{
+    
+    background: rgba(5, 5, 5, 0.877);
+    box-shadow: 0 8px 32px 0 rgba(224, 224, 224, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: aliceblue;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  
+  }
+  .iconscomp{
+    height: 100px;
+    width: 100px;
+  }
+  .compramos{
+    margin-top: 20px;
+  }
+  /****************************************--PARRAFOS -**************************************************************/
+    
+  
+  .ventapropstxt{
+    color: #343466;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .txtvprops{
+    color: #343466;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  }
+  .txttop{
+    margin-top: 10px    ;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+  
+  
+  }
+  .slogantxt{
+    font-family: 'Courgette', cursive;
+    font-size: 35px;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .p1{
+    
+    
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+  
+  }
+  .p2{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #343466;
+    margin-top: 20px;
+  }
+  .p22{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#343466;
+  
+  
+  }
+  .p11{
+    font-size: 40px;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+    ;
+   /* float: right;*/
+    margin-bottom: 20px;
+  }
+  .p12{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+   /* float: right;*/
+    margin-bottom: 20px;
+  
+  }
+  .pinmobi{
+  
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgb(233, 231, 227);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .plink{
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  h5{
+    text-shadow:1px,1px rgba(231, 152, 4, 0.945);
+  }
+  .formadmin{
+    color: black;
+    font-size: 20px;
+  
+  }
+  .pfotter1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .lista1{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .h2propsnombre{
+  
+    font-size: 40px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    color:#343466;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: start;
+    
+  
+  
+  }
+
+  .h2w{  
+    font-size: 20px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    color:#fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+
+  }
+  .h5propsnombre{
+  
+   font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.979);
+    text-align: start;
+    
+    
+  
+  
+  }
+
+  .imgpropssell{
+    height: 50%;
+    width: 50%;
+  }
+  
+  .iconrooms{
+    height: 25px;
+    width: 25px;
+    margin-left: 9px; 
+  }
+
+  .h4propsnombre{
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(247, 243, 243, 0.979);
+    
+  
+  }
+  .Solicitaval{
+    font-size: 30px;
+  }
+  /*//////////////////5/////////////IMAGENES/////////////////////////////////////////////////////////*/
+  
+  .card-img-top{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .card-img-top:hover{
+  
+ 
+    align-self: center;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 153, 0, 0.425);
+    box-shadow: 0 22px 32px 0  rgba(255, 255, 255, 0.925);
+   
+  }
+.imcarousel {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.imcarouseldetail{
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #000000;
+
+}
+
+
+
+
+ 
+  
+  .nbicon{
+  
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 40px;
+  
+  
+  }
+  .imglogo{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  }
+  .imglogofooter{
+    width: 200px;
+    height: 90px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  
+  }
+  .imgc1{
+    justify-content: flex-start;
+    max-width: 100%;
+    align-self: flex-start;
+    float: left;
+    border-radius: 32px;
+    margin-left: 18px;
+  }
+  .logoinv{
+    height: 50px;
+    width: 50px;
+  }
+  .imglogoinvest{
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .imgba{
+    width: 450px;
+    height: 350px;
+    border-radius: 32px;
+    box-shadow: 0 8px 32px 0 rgba(253, 253, 253, 0.911);
+  
+  }
+  .iconsbenefits{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .logowhts{
+    width:100px;
+    height: 100px;
+  margin: 6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-self: flex-end;
+  align-content: flex-end;
+  padding: 20px;
+
+  
+  }
+  .logowhts1{
+    width:130px;
+    height: 120px;
+  margin: 6px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  align-self: flex-start;
+  align-content: flex-start;
+  padding: 20px;
+
+  
+  }
+
+  .imgus{
+    width: 600px;
+    height: 500px;
+    border-radius: 32px;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .logocheck{
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+  }
+  
+  .logomodelo{
+    align-self: center;
+    width: 310px;
+    height: 300px;
+    margin: 10px;
+  }
+  .logomodeloestrat{
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+  }
+  
+  .imgtitleventa{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 32px;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    width: 350px;
+    height: 400px;
+  }
+  
+  
+  
+  
+  /*////////////////////////////////BOTONES /////////////////////////////////////////////////////////*/
+  
+  
+
+  .btn-success1{
+    background-color: rgb(243, 119, 4);
+    margin: 20px;
+    margin-top: 0px;
+    color: aliceblue;
+    height: 80px;
+    width: 290px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 12px;
+
+  }
+  .botin1{
+    border-radius: 32px;
+    background-color: rgb(243, 119, 4);
+    margin-top: 12px;
+    margin-bottom: 30px;
+  }
+  .bt1{
+    background-color: rgb(243, 119, 4);
+    margin: 20px;
+    margin-top: 50px;
+    color: aliceblue;
+    height: 12  0px;
+    width: 290px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 12px;
+  }
+
+  
+  .bt11{
+    background-color:#EC7700;
+    margin: 20px;
+    margin-top: 20px;
+    color: aliceblue;
+    height: 12  0px;
+    width: 290px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 12px;
+  }
+
+
+
+
+.btnhomeinv{
+  background-color:#EC7700;
+
+}
+  .bt111{
+    background-color:#EC7700;
+    margin: 20px;
+    margin-top: 40px;
+    color: aliceblue;
+    height: 100px;
+    width: 200px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    width: 400px;
+    align-self: center;
+    align-items: center;
+  }
+  .bt111:hover{
+    background-color:#EC7700;
+    margin: 20px;
+    margin-top: 40px;
+    color: #343466;
+    height: 12  0px;
+    width: 290px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    width: 400px;
+  }
+
+
+  .btsimula{
+    background-color:#343466;
+    margin: 20px;
+    margin-top: 40px;
+    color: aliceblue;
+    height: 12  0px;
+    width: 290px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    width: 400px;
+  }
+  .btsimula:hover{
+    background-color:#EC7700;
+    margin: 20px;
+    margin-top: 40px;
+    color: #343466;
+    height: 12  0px;
+    width: 290px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    width: 400px;
+  }
+
+
+
+  
+  
+  
+  .btsim{
+    background-color: rgb(243, 119, 4);
+    color: aliceblue;
+    margin-top: 15px;
+    
+    border-radius:32px;
+    align-self: center;
+  
+  }
+  
+  .navibtn{
+    margin-top: 9px;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+  
+  
+    
+  }
+  
+  
+  .r1{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 6px;
+    ;
+  }
+  
+  .titl{
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 60px;
+    text-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+  
+  }
+  
+  .btntopweek{
+    background-color:  rgb(243, 119, 4);
+    border-radius: 32px;
+    margin-top: 10px;
+  }
+  
+  .btnapply{
+    background-color:  rgb(255, 125, 3);
+    border-radius: 32px;
+    margin: 18px;
+    color: aliceblue;
+    width: 400px;
+  
+  }
+  .btnapply:hover{
+    background-color:  #343466;
+    border-radius: 32px;
+    margin: 18px;
+    color:  rgb(255, 255, 255);
+    border-color: aliceblue;
+  }
+  
+  
+  .btnform1{
+    background-color:  #343466;
+    margin: 18px;
+    color: aliceblue;
+    padding: 9px;
+    font-size: 30px;
+  }
+
+  /**----------------------------------COMPONENTS---------------------------------------*/
+  .formjoin{
+    margin-top: 30px;
+    color: aliceblue;
+  }
+  .map{
+    height: 600px;
+    width: 600px;
+  }
+  
+ 
+  .navbar{
+    background: #343466;
+    box-shadow: 0 8px 32px 0 rgba(224, 224, 224, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: aliceblue;
+  
+    margin-bottom: 18px;
+
+  }
+
+  
+
+
+  .investimg{
+    margin-bottom: 30px;
+  }
+  
+  /*------------------------------------INPUTS ------------------------------------------*/
+  
+  /*SIMULADOR 1*/
+  
+  .inputsim1{
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+
+  }
+  
+  .inputform{
+    border-radius: 9px;
+    background-color:#ee7c0143;
+  
+    align-self: center;
+    color:#343466;
+    padding-inline: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 0;
+    height: 40px;
+    text-align: center;
+  
+  }
+  
+  
+  .inputform:hover{
+    border-radius: 9px;
+    background-color:#ee7c0143;
+  
+    align-self: center;
+    color: #343466;
+    padding-inline: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 0;
+    height: 40px;
+    text-align: center;
+  
+  }
+  
+  
+  .inputformvendemos{
+    border-radius: 9px;
+    background-color:#ee7c0143;
+  
+    align-self: center;
+    color:#343466;
+    padding-inline: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 0;
+    height: 40px;
+     text-align: center;
+  
+  }
+  .inputformvendemos:focus{
+    border-radius: 5px;
+    background-color:#ee7c0143;
+     color: #343466;
+     border-width: 0;
+  
+  }
+  
+  
+  
+  .lista{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .inputformcv{
+    margin: 10px  ;
+  }
+
+  .fon{
+    margin-top: 30px;
+  }
+  .logofooter{
+    width: 300px;
+    height: 100px;
+  }
+
+  .colin{
+    margin-top: 0px;
+  }
+  .iver {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: auto;
+    margin-left: 30px;
+    align-self: center;
+  }
+  
+  .garant {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  .titleinvest{
+    font-size: 60px;
+    line-height: 1.5;
+
+    padding: 10px;
+    border-radius: 5px;
+  
+    font-weight: bold;
+    color: #343466;
+
+    margin-top: 50px;
+
+  }
+  .cursiva{
+    font-family: 'Italianno', cursive;
+
+    font-size: 50px ;
+    font-style: italic;
+    text-align: center;
+
+    color: #343466;
+  }
+  .titlewho{
+    font-size: 60px;
+    line-height: 1.5;
+ 
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    color: #343466;
+    margin-top: 20px;
+
+  }
+  .cardvalores{
+width: 350px;
+ height: 150px;
+ border-radius: 20px;
+ margin-left: 120px;
+ align-self: center;
+ background-color: #343466;
+ margin-top: 20px;
+ margin-bottom: 20px;
+
+ 
+
+  }
+  .card-titlevalores{
+    margin-top: 20px;
+    font-weight: bold;
+
+    color: #f1f1f3;
+    font-size: 40px;
+
+  }
+  
+
+  .nuestrag1{
+    margin-top: 60px;
+  }
+
+  .botonesluz{
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+  .button-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  
+  .button-line button {
+    margin: 0 10px;
+    animation: colorChange 10s infinite, pulse 1s infinite;
+  }
+  
+  .button-line button:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .button-line button:nth-child(2) {
+    animation-delay: 2s;
+  }
+  
+  .button-line button:nth-child(3) {
+    animation-delay: 4s;
+  }
+  
+  .button-line button:nth-child(4) {
+    animation-delay: 6s;
+  }
+  
+  .button-line button:nth-child(5) {
+    animation-delay: 8s;
+  }
+  
+  @keyframes colorChange {
+    0% { background-color: #EC7700; }
+    20% { background-color: #EC7700; }
+    40% { background-color: #ec7600a7}
+    60% { background-color: #343466c9; }
+    80% { background-color: #343466; }
+    100% { background-color: #343466; }
+  }
+  
+
+  
+
+  
+
+
+.btnciclo {
+
+  background-color: #EC7700;
+    border-radius: 100px;
+    height: 180px;
+    width: 180px;
+    border-width: 0;
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+  
+  }
+
+.btnciclo:hover{
+  background-color: #343466;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: bolder;
+  border-width: 0;
+  height: 180px;
+  width: 180px;
+  padding: 10px;
+
+
+  color: rgb(255, 255, 255);
+
+}
+.btnciclocentro{
+
+  background-color: rgba(255, 255, 255, 0.068);
+  border-radius: 10px;
+  font-size: 13px;
+  height: 125px;
+  width: 225px;
+
+  color: aliceblue;
+  border-color: rgba(240, 248, 255, 0);
+
+}
+
+
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .div1 { grid-area: 2 / 3 / 2 / 4; }
+  .div2 { grid-area: 4 / 1 / 4 / 2; }
+  .div3 { grid-area: 6 / 2 / 8 / 3; }
+  .div4 { grid-area: 6 / 4 / 8 / 5; }
+  .div5 { grid-area: 4 / 5 / 4 / 6; }
+  .div6 { grid-area: 4 / 3 / 5 / 4; }
+
+
+  .cardciclo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .mensaje{
+    color: #343466; 
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 90px;
+  }
+
+  .ciclop{
+    margin-bottom: 30px;
+  }
+ 
+  .uscard{
+    margin-top: 90px;
+    justify-content: center;
+    text-align: justify;
+
+    text-align: justify;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .cmensaje{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .titlehometxt{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  .btn111{
+    position: relative;
+    padding: 10px;
+    background-color:#343466;
+    border: none;
+    color:  #ffff;
+    font-size: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-shadow: #000000;
+    border-radius: 10px;
+
+  }
+
+  .botonhome {
+    align-self: center;
+    position: relative;
+    padding: 10px;
+    background-color:#ee7b0195;
+    color:  #ffff;
+    cursor: pointer;
+    overflow: hidden;
+    text-shadow: #000000;
+    margin-top: 210px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    height: 80px;
+    width: 200px;
+    border-radius: 12px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+    
+  }
+  
+  .botonhome:hover{
+    color: #fff;
+    background-color:#ee7b013e;
+  }
+
+  
+
+  .c2{
+     background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: black  ;
+
+  }
+
+  .centro{
+    margin-bottom: 70px;
+  }
+
+ 
+
+  .row {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .modelo {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .invest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-body {
+    text-align: center;
+    padding: 30px;
+  }
+  
+
+  
+  .card-text {
+    font-size: 20px;
+    color: #343466;
+    line-height: 1.6;
+    margin-top: 2 0px;
+  }
+
+  .card-textf {
+    font-size: 30px;
+    color: #343466;
+    line-height: 1.6;
+    margin-top: 2 0px;
+    font-weight: bolder;
+  }
+  
+
+  
+
+
+
+
+
+  
+
+  
+  .nuestragarantia {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    height:auto;
+  
+    
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  .img1invest {
+    max-width: 100%;
+    height: 80%;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .imgcontatct{
+
+    max-width: 100%;
+    height: 80%;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+  }
+
+  .label1{
+    text-align: center;
+    font-size: 20px;
+    margin-right: 12px;
+    font-weight: bold;
+    color: #343466;
+  }
+
+  .form-select{
+  
+    align-self: center;
+    align-content: center;
+    background-color: #ee7c0143;
+  }
+
+  .h22 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #343466;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+
+  }
+  .h22c {
+    font-size: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #343466;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+  }
+  .h22cc {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #343466;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+  }
+  .h23 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+
+  }
+  .upbtnfiles{
+   align-self: center;
+  }
+
+  .admintext{
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+  }
+
+
+  .btn122{
+    background-color: #343466;
+    color: #f1f1f3;
+    width: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    align-self: center;
+  }
+  .btn122:hover{
+    background-color: #343466;
+    color: #f1f1f3;
+    width: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+
+
+
+  .btn1{
+    background-color: #343466;
+    color: #f1f1f3;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 30px;
+    align-self: center;
+  }
+  .btn1:hover{
+    background-color: #343466;
+    color: #f1f1f3;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .img11{
+    width: 40%;
+    border-radius: 8px;
+  }
+
+  .image-container {
+    position: relative;
+  }
+
+ 
+.image-text {
+  position: absolute;
+  top: 90%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.196);
+  padding: 10px;
+  text-shadow: -2px -2px 4px rgb(0, 0, 0);
+  border-radius: 10px;
+  
+
+}
+
+.conta1{
+  margin-top: 140px;
+}
+  
+.iconphpne{
+  margin-right: 10px;
+}
+  
+.texto {
+  text-align: center;
+  padding: 20px;
+}
+.p23w{
+  font-size: 30px;
+  color: #343466;
+  line-height: 1.6;
+  margin-top: 2 0px;
+  font-weight: 900;
+
+}
+.iconinvest{
+  align-self: center;
+
+  height: 30px;
+  width: 30px;
+}
+
+.ccc2{
+  height: 500px;
+  width: 400;
+}
+
+.txtadmin{
+  font-size: 30px;
+  color: #343466;
+  line-height: 1.6;
+  margin-top: 30px;
+  font-weight: 900;
+}
